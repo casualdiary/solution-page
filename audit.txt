@@ -1,0 +1,103 @@
+Dead-click audit, 28 Oct 2026 10:44 WIB. Each visible link/button/tab was clicked; 'dead' = no DOM, hash or focus change.
+All remaining flags are expected no-ops: a tab/segment that was already selected (Halden Coffee, One client, Subscriptions, 3 days), or a link to the page you're already on (it scrolls to top, so the DOM doesn't change).
+Console errors/warnings: none on any page at 1440 or 390.
+
+== audit-agencies-1440.txt
+TOTAL 48
+DEAD 3
+1440 #/agencies [11] BUTTON "H
+Halden Coffee
+Specialty coffee"
+1440 #/agencies [15] BUTTON "One client"
+1440 #/agencies [41] A "Agencies & freelancers"
+ERRORS []
+== audit-agencies-390.txt
+TOTAL 43
+DEAD 3
+390 #/agencies [6] BUTTON "H
+Halden Coffee
+Specialty coffee"
+390 #/agencies [10] BUTTON "One client"
+390 #/agencies [36] A "Agencies & freelancers"
+ERRORS []
+== audit-creators-1440.txt
+TOTAL 61
+DEAD 1
+1440 #/creators [52] A "Content creators"
+ERRORS []
+== audit-creators-390.txt
+TOTAL 56
+DEAD 1
+390 #/creators [47] A "Content creators"
+ERRORS []
+== audit-hub-1440.txt
+TOTAL 369
+DEAD 9
+1440 #/ [0] A "Designs.ai"
+1440 #/ [41] A "Designs.ai"
+1440 #/small-business [48] A "Small business owners"
+1440 #/creators [52] A "Content creators"
+1440 #/marketing-teams [56] A "Marketing teams"
+1440 #/agencies [11] BUTTON "H
+Halden Coffee
+Specialty coffee"
+1440 #/agencies [15] BUTTON "One client"
+1440 #/agencies [41] A "Agencies & freelancers"
+1440 #/startups [25] BUTTON "Subscriptions"
+ERRORS []
+== audit-hub-390.txt
+TOTAL 335
+DEAD 10
+390 #/ [0] A "Designs.ai"
+390 #/ [3] A "Find your fit"
+390 #/ [37] A "Designs.ai"
+390 #/small-business [43] A "Small business owners"
+390 #/creators [47] A "Content creators"
+390 #/marketing-teams [51] A "Marketing teams"
+390 #/agencies [6] BUTTON "H
+Halden Coffee
+Specialty coffee"
+390 #/agencies [10] BUTTON "One client"
+390 #/agencies [36] A "Agencies & freelancers"
+390 #/startups [20] BUTTON "Subscriptions"
+ERRORS []
+== audit-marketing-teams-1440.txt
+TOTAL 57
+DEAD 1
+1440 #/marketing-teams [56] A "Marketing teams"
+ERRORS []
+== audit-marketing-teams-390.txt
+TOTAL 52
+DEAD 1
+390 #/marketing-teams [51] A "Marketing teams"
+ERRORS []
+== audit-online-sellers-1440.txt
+TOTAL 49
+DEAD 0
+
+ERRORS []
+== audit-online-sellers-390.txt
+TOTAL 44
+DEAD 1
+390 #/online-sellers [24] BUTTON "3 days"
+ERRORS []
+== audit-small-business-1440.txt
+TOTAL 53
+DEAD 1
+1440 #/small-business [48] A "Small business owners"
+ERRORS []
+== audit-small-business-390.txt
+TOTAL 48
+DEAD 1
+390 #/small-business [43] A "Small business owners"
+ERRORS []
+== audit-startups-1440.txt
+TOTAL 49
+DEAD 1
+1440 #/startups [25] BUTTON "Subscriptions"
+ERRORS []
+== audit-startups-390.txt
+TOTAL 44
+DEAD 1
+390 #/startups [20] BUTTON "Subscriptions"
+ERRORS []
